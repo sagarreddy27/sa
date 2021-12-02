@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(r'C:\Users\lenovo\PycharmProjects\Virtual_Env\Car_Prediction\venv\car data.csv')
+df = pd.read_csv('car data.csv')
 df.head(3)
 df.shape
 df.info()
